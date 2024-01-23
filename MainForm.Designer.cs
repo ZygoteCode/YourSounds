@@ -37,7 +37,25 @@
             this.firefoxMainTabControl1 = new FirefoxMainTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.guna2TextBox25 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ComboBox4 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.guna2CheckBox12 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2TextBox26 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.guna2TextBox24 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2CheckBox11 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2TextBox23 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.guna2TextBox22 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2CheckBox10 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2TextBox21 = new Guna.UI2.WinForms.Guna2TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.guna2TextBox20 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2CheckBox9 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2CheckBox8 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TextBox18 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CheckBox7 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
@@ -72,17 +90,13 @@
             this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2TextBox19 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CheckBox8 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2TextBox20 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CheckBox9 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.guna2CheckBox10 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2TextBox21 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox22 = new Guna.UI2.WinForms.Guna2TextBox();
             this.firefoxMainTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -90,7 +104,6 @@
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2ControlBox1
@@ -100,7 +113,7 @@
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(945, 10);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(932, 10);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 0;
@@ -113,7 +126,7 @@
             this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(894, 10);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(881, 10);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox2.TabIndex = 1;
@@ -148,7 +161,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.ScrollAlwaysVisible = true;
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(267, 302);
+            this.listBox1.Size = new System.Drawing.Size(267, 467);
             this.listBox1.TabIndex = 3;
             this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
@@ -165,7 +178,7 @@
             this.listBox2.Name = "listBox2";
             this.listBox2.ScrollAlwaysVisible = true;
             this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox2.Size = new System.Drawing.Size(311, 302);
+            this.listBox2.Size = new System.Drawing.Size(311, 467);
             this.listBox2.TabIndex = 5;
             this.listBox2.DoubleClick += new System.EventHandler(this.listBox2_DoubleClick);
             // 
@@ -270,7 +283,7 @@
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2Button6.Location = new System.Drawing.Point(21, 391);
+            this.guna2Button6.Location = new System.Drawing.Point(21, 539);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(289, 36);
             this.guna2Button6.TabIndex = 10;
@@ -288,7 +301,7 @@
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2Button7.Location = new System.Drawing.Point(320, 391);
+            this.guna2Button7.Location = new System.Drawing.Point(320, 539);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(289, 36);
             this.guna2Button7.TabIndex = 11;
@@ -404,7 +417,7 @@
             this.firefoxMainTabControl1.Multiline = true;
             this.firefoxMainTabControl1.Name = "firefoxMainTabControl1";
             this.firefoxMainTabControl1.SelectedIndex = 0;
-            this.firefoxMainTabControl1.Size = new System.Drawing.Size(991, 458);
+            this.firefoxMainTabControl1.Size = new System.Drawing.Size(979, 600);
             this.firefoxMainTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.firefoxMainTabControl1.TabIndex = 18;
             // 
@@ -432,13 +445,16 @@
             this.tabPage1.Location = new System.Drawing.Point(156, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(831, 450);
+            this.tabPage1.Size = new System.Drawing.Size(819, 592);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Soundboard";
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.tabPage2.Controls.Add(this.groupBox11);
+            this.tabPage2.Controls.Add(this.groupBox10);
+            this.tabPage2.Controls.Add(this.groupBox9);
             this.tabPage2.Controls.Add(this.groupBox8);
             this.tabPage2.Controls.Add(this.groupBox7);
             this.tabPage2.Controls.Add(this.groupBox6);
@@ -453,9 +469,276 @@
             this.tabPage2.Location = new System.Drawing.Point(156, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(831, 450);
+            this.tabPage2.Size = new System.Drawing.Size(819, 592);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Effects";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.guna2TextBox25);
+            this.groupBox11.Controls.Add(this.guna2ComboBox4);
+            this.groupBox11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.groupBox11.Location = new System.Drawing.Point(363, 441);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(224, 122);
+            this.groupBox11.TabIndex = 21;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Earrape";
+            // 
+            // guna2TextBox25
+            // 
+            this.guna2TextBox25.Animated = true;
+            this.guna2TextBox25.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox25.DefaultText = "";
+            this.guna2TextBox25.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox25.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox25.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox25.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox25.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox25.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox25.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox25.Location = new System.Drawing.Point(16, 74);
+            this.guna2TextBox25.Name = "guna2TextBox25";
+            this.guna2TextBox25.PasswordChar = '\0';
+            this.guna2TextBox25.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox25.PlaceholderText = "Bit depth for High Mode (1 - 128)";
+            this.guna2TextBox25.SelectedText = "";
+            this.guna2TextBox25.Size = new System.Drawing.Size(189, 32);
+            this.guna2TextBox25.TabIndex = 23;
+            // 
+            // guna2ComboBox4
+            // 
+            this.guna2ComboBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2ComboBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2ComboBox4.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.guna2ComboBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2ComboBox4.ItemHeight = 30;
+            this.guna2ComboBox4.Items.AddRange(new object[] {
+            "No earrape",
+            "Low Mode",
+            "High Mode"});
+            this.guna2ComboBox4.Location = new System.Drawing.Point(16, 29);
+            this.guna2ComboBox4.Name = "guna2ComboBox4";
+            this.guna2ComboBox4.Size = new System.Drawing.Size(189, 36);
+            this.guna2ComboBox4.TabIndex = 22;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.guna2CheckBox12);
+            this.groupBox10.Controls.Add(this.guna2TextBox26);
+            this.groupBox10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.groupBox10.Location = new System.Drawing.Point(188, 441);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(169, 103);
+            this.groupBox10.TabIndex = 20;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Pitch shifter";
+            // 
+            // guna2CheckBox12
+            // 
+            this.guna2CheckBox12.Animated = true;
+            this.guna2CheckBox12.AutoSize = true;
+            this.guna2CheckBox12.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox12.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox12.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox12.Location = new System.Drawing.Point(19, 25);
+            this.guna2CheckBox12.Name = "guna2CheckBox12";
+            this.guna2CheckBox12.Size = new System.Drawing.Size(127, 19);
+            this.guna2CheckBox12.TabIndex = 14;
+            this.guna2CheckBox12.Text = "Enable pitch shifter";
+            this.guna2CheckBox12.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox12.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox12.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox12.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2TextBox26
+            // 
+            this.guna2TextBox26.Animated = true;
+            this.guna2TextBox26.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox26.DefaultText = "";
+            this.guna2TextBox26.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox26.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox26.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox26.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox26.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox26.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox26.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox26.Location = new System.Drawing.Point(19, 50);
+            this.guna2TextBox26.Name = "guna2TextBox26";
+            this.guna2TextBox26.PasswordChar = '\0';
+            this.guna2TextBox26.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox26.PlaceholderText = "Pitch factor (0 - 10)";
+            this.guna2TextBox26.SelectedText = "";
+            this.guna2TextBox26.Size = new System.Drawing.Size(128, 32);
+            this.guna2TextBox26.TabIndex = 13;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.guna2TextBox24);
+            this.groupBox9.Controls.Add(this.guna2CheckBox11);
+            this.groupBox9.Controls.Add(this.guna2TextBox23);
+            this.groupBox9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.groupBox9.Location = new System.Drawing.Point(13, 441);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(169, 137);
+            this.groupBox9.TabIndex = 19;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Resonator";
+            // 
+            // guna2TextBox24
+            // 
+            this.guna2TextBox24.Animated = true;
+            this.guna2TextBox24.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox24.DefaultText = "";
+            this.guna2TextBox24.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox24.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox24.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox24.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox24.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox24.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox24.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox24.Location = new System.Drawing.Point(19, 88);
+            this.guna2TextBox24.Name = "guna2TextBox24";
+            this.guna2TextBox24.PasswordChar = '\0';
+            this.guna2TextBox24.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox24.PlaceholderText = "Decay (0 - 10)";
+            this.guna2TextBox24.SelectedText = "";
+            this.guna2TextBox24.Size = new System.Drawing.Size(128, 32);
+            this.guna2TextBox24.TabIndex = 15;
+            // 
+            // guna2CheckBox11
+            // 
+            this.guna2CheckBox11.Animated = true;
+            this.guna2CheckBox11.AutoSize = true;
+            this.guna2CheckBox11.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox11.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox11.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox11.Location = new System.Drawing.Point(19, 25);
+            this.guna2CheckBox11.Name = "guna2CheckBox11";
+            this.guna2CheckBox11.Size = new System.Drawing.Size(114, 19);
+            this.guna2CheckBox11.TabIndex = 14;
+            this.guna2CheckBox11.Text = "Enable resonator";
+            this.guna2CheckBox11.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox11.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox11.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox11.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2TextBox23
+            // 
+            this.guna2TextBox23.Animated = true;
+            this.guna2TextBox23.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox23.DefaultText = "";
+            this.guna2TextBox23.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox23.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox23.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox23.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox23.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox23.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox23.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox23.Location = new System.Drawing.Point(19, 50);
+            this.guna2TextBox23.Name = "guna2TextBox23";
+            this.guna2TextBox23.PasswordChar = '\0';
+            this.guna2TextBox23.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox23.PlaceholderText = "Delay (0 - 6000 ms)";
+            this.guna2TextBox23.SelectedText = "";
+            this.guna2TextBox23.Size = new System.Drawing.Size(128, 32);
+            this.guna2TextBox23.TabIndex = 13;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.guna2TextBox22);
+            this.groupBox8.Controls.Add(this.guna2CheckBox10);
+            this.groupBox8.Controls.Add(this.guna2TextBox21);
+            this.groupBox8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.groupBox8.Location = new System.Drawing.Point(648, 256);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(161, 146);
+            this.groupBox8.TabIndex = 18;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Chorus";
+            // 
+            // guna2TextBox22
+            // 
+            this.guna2TextBox22.Animated = true;
+            this.guna2TextBox22.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox22.DefaultText = "";
+            this.guna2TextBox22.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox22.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox22.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox22.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox22.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox22.Location = new System.Drawing.Point(16, 94);
+            this.guna2TextBox22.Name = "guna2TextBox22";
+            this.guna2TextBox22.PasswordChar = '\0';
+            this.guna2TextBox22.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox22.PlaceholderText = "Number of voices";
+            this.guna2TextBox22.SelectedText = "";
+            this.guna2TextBox22.Size = new System.Drawing.Size(129, 32);
+            this.guna2TextBox22.TabIndex = 15;
+            // 
+            // guna2CheckBox10
+            // 
+            this.guna2CheckBox10.Animated = true;
+            this.guna2CheckBox10.AutoSize = true;
+            this.guna2CheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox10.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox10.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox10.Location = new System.Drawing.Point(16, 31);
+            this.guna2CheckBox10.Name = "guna2CheckBox10";
+            this.guna2CheckBox10.Size = new System.Drawing.Size(100, 19);
+            this.guna2CheckBox10.TabIndex = 14;
+            this.guna2CheckBox10.Text = "Enable chorus";
+            this.guna2CheckBox10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox10.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox10.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2TextBox21
+            // 
+            this.guna2TextBox21.Animated = true;
+            this.guna2TextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox21.DefaultText = "";
+            this.guna2TextBox21.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox21.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox21.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox21.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox21.Location = new System.Drawing.Point(16, 56);
+            this.guna2TextBox21.Name = "guna2TextBox21";
+            this.guna2TextBox21.PasswordChar = '\0';
+            this.guna2TextBox21.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox21.PlaceholderText = "Length (0 - 3000 ms)";
+            this.guna2TextBox21.SelectedText = "";
+            this.guna2TextBox21.Size = new System.Drawing.Size(129, 32);
+            this.guna2TextBox21.TabIndex = 13;
             // 
             // groupBox7
             // 
@@ -473,6 +756,88 @@
             this.groupBox7.TabIndex = 17;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Simple effects";
+            // 
+            // guna2TextBox20
+            // 
+            this.guna2TextBox20.Animated = true;
+            this.guna2TextBox20.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox20.DefaultText = "";
+            this.guna2TextBox20.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox20.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox20.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox20.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox20.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox20.Location = new System.Drawing.Point(15, 184);
+            this.guna2TextBox20.Name = "guna2TextBox20";
+            this.guna2TextBox20.PasswordChar = '\0';
+            this.guna2TextBox20.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox20.PlaceholderText = "Length (0 - 3000 ms)";
+            this.guna2TextBox20.SelectedText = "";
+            this.guna2TextBox20.Size = new System.Drawing.Size(130, 32);
+            this.guna2TextBox20.TabIndex = 7;
+            // 
+            // guna2CheckBox9
+            // 
+            this.guna2CheckBox9.Animated = true;
+            this.guna2CheckBox9.AutoSize = true;
+            this.guna2CheckBox9.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox9.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox9.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox9.Location = new System.Drawing.Point(15, 159);
+            this.guna2CheckBox9.Name = "guna2CheckBox9";
+            this.guna2CheckBox9.Size = new System.Drawing.Size(65, 19);
+            this.guna2CheckBox9.TabIndex = 6;
+            this.guna2CheckBox9.Text = "Flanger";
+            this.guna2CheckBox9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox9.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox9.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2TextBox19
+            // 
+            this.guna2TextBox19.Animated = true;
+            this.guna2TextBox19.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox19.DefaultText = "";
+            this.guna2TextBox19.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox19.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox19.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox19.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.guna2TextBox19.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
+            this.guna2TextBox19.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2TextBox19.Location = new System.Drawing.Point(15, 118);
+            this.guna2TextBox19.Name = "guna2TextBox19";
+            this.guna2TextBox19.PasswordChar = '\0';
+            this.guna2TextBox19.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.guna2TextBox19.PlaceholderText = "Interval (0 - 3000 ms)";
+            this.guna2TextBox19.SelectedText = "";
+            this.guna2TextBox19.Size = new System.Drawing.Size(130, 32);
+            this.guna2TextBox19.TabIndex = 5;
+            // 
+            // guna2CheckBox8
+            // 
+            this.guna2CheckBox8.Animated = true;
+            this.guna2CheckBox8.AutoSize = true;
+            this.guna2CheckBox8.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox8.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox8.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.guna2CheckBox8.Location = new System.Drawing.Point(15, 93);
+            this.guna2CheckBox8.Name = "guna2CheckBox8";
+            this.guna2CheckBox8.Size = new System.Drawing.Size(86, 19);
+            this.guna2CheckBox8.TabIndex = 4;
+            this.guna2CheckBox8.Text = "Delay pong";
+            this.guna2CheckBox8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox8.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox8.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             // 
             // guna2TextBox18
             // 
@@ -1168,166 +1533,6 @@
             this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
             this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             // 
-            // guna2TextBox19
-            // 
-            this.guna2TextBox19.Animated = true;
-            this.guna2TextBox19.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox19.DefaultText = "";
-            this.guna2TextBox19.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox19.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox19.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox19.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.guna2TextBox19.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2TextBox19.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox19.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2TextBox19.Location = new System.Drawing.Point(15, 118);
-            this.guna2TextBox19.Name = "guna2TextBox19";
-            this.guna2TextBox19.PasswordChar = '\0';
-            this.guna2TextBox19.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox19.PlaceholderText = "Interval (0 - 3000 ms)";
-            this.guna2TextBox19.SelectedText = "";
-            this.guna2TextBox19.Size = new System.Drawing.Size(130, 32);
-            this.guna2TextBox19.TabIndex = 5;
-            // 
-            // guna2CheckBox8
-            // 
-            this.guna2CheckBox8.Animated = true;
-            this.guna2CheckBox8.AutoSize = true;
-            this.guna2CheckBox8.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox8.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox8.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox8.Location = new System.Drawing.Point(15, 93);
-            this.guna2CheckBox8.Name = "guna2CheckBox8";
-            this.guna2CheckBox8.Size = new System.Drawing.Size(86, 19);
-            this.guna2CheckBox8.TabIndex = 4;
-            this.guna2CheckBox8.Text = "Delay pong";
-            this.guna2CheckBox8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox8.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox8.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // guna2TextBox20
-            // 
-            this.guna2TextBox20.Animated = true;
-            this.guna2TextBox20.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox20.DefaultText = "";
-            this.guna2TextBox20.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox20.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox20.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.guna2TextBox20.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2TextBox20.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2TextBox20.Location = new System.Drawing.Point(15, 184);
-            this.guna2TextBox20.Name = "guna2TextBox20";
-            this.guna2TextBox20.PasswordChar = '\0';
-            this.guna2TextBox20.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox20.PlaceholderText = "Length (0 - 3000 ms)";
-            this.guna2TextBox20.SelectedText = "";
-            this.guna2TextBox20.Size = new System.Drawing.Size(130, 32);
-            this.guna2TextBox20.TabIndex = 7;
-            // 
-            // guna2CheckBox9
-            // 
-            this.guna2CheckBox9.Animated = true;
-            this.guna2CheckBox9.AutoSize = true;
-            this.guna2CheckBox9.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox9.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox9.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox9.Location = new System.Drawing.Point(15, 159);
-            this.guna2CheckBox9.Name = "guna2CheckBox9";
-            this.guna2CheckBox9.Size = new System.Drawing.Size(65, 19);
-            this.guna2CheckBox9.TabIndex = 6;
-            this.guna2CheckBox9.Text = "Flanger";
-            this.guna2CheckBox9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox9.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox9.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.guna2TextBox22);
-            this.groupBox8.Controls.Add(this.guna2CheckBox10);
-            this.groupBox8.Controls.Add(this.guna2TextBox21);
-            this.groupBox8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.groupBox8.Location = new System.Drawing.Point(648, 256);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(161, 146);
-            this.groupBox8.TabIndex = 18;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Chorus";
-            // 
-            // guna2CheckBox10
-            // 
-            this.guna2CheckBox10.Animated = true;
-            this.guna2CheckBox10.AutoSize = true;
-            this.guna2CheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox10.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox10.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2CheckBox10.Location = new System.Drawing.Point(16, 31);
-            this.guna2CheckBox10.Name = "guna2CheckBox10";
-            this.guna2CheckBox10.Size = new System.Drawing.Size(100, 19);
-            this.guna2CheckBox10.TabIndex = 14;
-            this.guna2CheckBox10.Text = "Enable chorus";
-            this.guna2CheckBox10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox10.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox10.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // guna2TextBox21
-            // 
-            this.guna2TextBox21.Animated = true;
-            this.guna2TextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox21.DefaultText = "";
-            this.guna2TextBox21.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox21.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox21.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox21.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.guna2TextBox21.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2TextBox21.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2TextBox21.Location = new System.Drawing.Point(16, 56);
-            this.guna2TextBox21.Name = "guna2TextBox21";
-            this.guna2TextBox21.PasswordChar = '\0';
-            this.guna2TextBox21.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox21.PlaceholderText = "Length (0 - 3000 ms)";
-            this.guna2TextBox21.SelectedText = "";
-            this.guna2TextBox21.Size = new System.Drawing.Size(129, 32);
-            this.guna2TextBox21.TabIndex = 13;
-            // 
-            // guna2TextBox22
-            // 
-            this.guna2TextBox22.Animated = true;
-            this.guna2TextBox22.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox22.DefaultText = "";
-            this.guna2TextBox22.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox22.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox22.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox22.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.guna2TextBox22.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(91)))), ((int)(((byte)(153)))));
-            this.guna2TextBox22.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.guna2TextBox22.Location = new System.Drawing.Point(16, 94);
-            this.guna2TextBox22.Name = "guna2TextBox22";
-            this.guna2TextBox22.PasswordChar = '\0';
-            this.guna2TextBox22.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.guna2TextBox22.PlaceholderText = "Number of voices";
-            this.guna2TextBox22.SelectedText = "";
-            this.guna2TextBox22.Size = new System.Drawing.Size(129, 32);
-            this.guna2TextBox22.TabIndex = 15;
-            // 
             // MainForm
             // 
             this.AllowResize = false;
@@ -1335,7 +1540,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1000, 509);
+            this.ClientSize = new System.Drawing.Size(987, 651);
             this.Controls.Add(this.firefoxMainTabControl1);
             this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.guna2ControlBox1);
@@ -1351,6 +1556,13 @@
             this.firefoxMainTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
@@ -1363,8 +1575,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.ResumeLayout(false);
 
     }
@@ -1434,4 +1644,14 @@
     private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox10;
     private Guna.UI2.WinForms.Guna2TextBox guna2TextBox21;
     private Guna.UI2.WinForms.Guna2TextBox guna2TextBox22;
+    private System.Windows.Forms.GroupBox groupBox9;
+    private Guna.UI2.WinForms.Guna2TextBox guna2TextBox23;
+    private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox11;
+    private Guna.UI2.WinForms.Guna2TextBox guna2TextBox24;
+    private System.Windows.Forms.GroupBox groupBox10;
+    private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox12;
+    private Guna.UI2.WinForms.Guna2TextBox guna2TextBox26;
+    private System.Windows.Forms.GroupBox groupBox11;
+    private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox4;
+    private Guna.UI2.WinForms.Guna2TextBox guna2TextBox25;
 }

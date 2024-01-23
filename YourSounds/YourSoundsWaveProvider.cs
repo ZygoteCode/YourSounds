@@ -1,5 +1,6 @@
 ﻿using NAudio.Wave;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 public class YourSoundsWaveProvider : ISampleProvider
 {
@@ -19,6 +20,7 @@ public class YourSoundsWaveProvider : ISampleProvider
         foreach (YourSoundsEffect effect in effects)
         {
             effect.Process(buffer, samplesRead);
+            effect.CompleteProcess(buffer, samplesRead, offset, count);
         }
 
         return samplesRead;

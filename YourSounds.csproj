@@ -239,6 +239,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="YourSounds\Effects\YourSoundsAcrusher.cs" />
+    <Compile Include="YourSounds\Effects\YourSoundsBitcrusher.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsChorus.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsCompressor.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsDelay.cs" />
@@ -250,6 +252,7 @@
     <Compile Include="YourSounds\Effects\YourSoundsLowPassFilter.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsNotchFilter.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsPitchShifter.cs" />
+    <Compile Include="YourSounds\Effects\YourSoundsResonator.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsSimpleCompressor.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsSuperCompressor.cs" />
     <Compile Include="YourSounds\Effects\YourSoundsSuperEqualizer.cs" />

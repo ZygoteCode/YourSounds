@@ -71,6 +71,7 @@ public partial class MainForm : MetroSuite.MetroForm
         label1.Text = $"Current volume level: {guna2TrackBar1.Value}%";
         guna2ComboBox2.SelectedIndex = 0;
         guna2ComboBox3.SelectedIndex = 0;
+        guna2ComboBox4.SelectedIndex = 0;
     }
 
     private void ClearEffects()
@@ -91,7 +92,7 @@ public partial class MainForm : MetroSuite.MetroForm
 
     private float ParseFloat(Guna2TextBox textBox)
     {
-        return float.Parse(textBox.Text.Replace(",", "."));
+        return float.Parse(textBox.Text.Replace(".", ","));
     }
 
     private void ApplyCurrentEffects()
@@ -289,6 +290,49 @@ public partial class MainForm : MetroSuite.MetroForm
 
         }
 
+        try
+        {
+            if (guna2CheckBox11.Checked)
+            {
+                effects.Add(new YourSoundsResonator(ParseFloat(guna2TextBox23), ParseFloat(guna2TextBox24)));
+            }
+        }
+        catch
+        {
+
+        }
+
+        try
+        {
+            if (guna2CheckBox12.Checked)
+            {
+                effects.Add(new YourSoundsPitchShifter(ParseFloat(guna2TextBox26)));
+            }
+        }
+        catch
+        {
+
+        }
+
+        try
+        {
+            if (guna2ComboBox4.SelectedIndex != 0)
+            {
+                if (guna2ComboBox4.SelectedIndex == 1)
+                {
+                    effects.Add(new YourSoundsAcrusher());
+                }
+                else if (guna2ComboBox4.SelectedIndex == 2)
+                {
+                    effects.Add(new YourSoundsBitCrusher((int)(ParseFloat(guna2TextBox25))));
+                }
+            }
+        }
+        catch
+        {
+
+        }
+
         foreach (YourSoundsEffect effect in effects)
         {
             AddEffect(effect);
@@ -464,7 +508,7 @@ public partial class MainForm : MetroSuite.MetroForm
                     providers.Add(provider);
                     volumeSampleProviders.Add(volumeProvider);
 
-                    waveOutEvent.Init(provider);
+                    waveOutEvent.Init(new SampleToWaveProvider(provider));
                     events.Add(waveOutEvent);
                     waveOutEvent.Play();
                 }
@@ -627,7 +671,7 @@ public partial class MainForm : MetroSuite.MetroForm
         {
             FileName = Path.GetFullPath("data\\utils\\ffmpeg.exe"),
             WorkingDirectory = Path.GetFullPath("data\\utils"),
-            Arguments = $"-threads {Environment.ProcessorCount} -i \"{filePath}\" -c:a pcm_s16le -ar 44100 \"{outputPath}\"",
+            Arguments = $"-threads {Environment.ProcessorCount} -i \"{filePath}\" -c:a pcm_s16le -ar 44100 -ac 2 \"{outputPath}\"",
             UseShellExecute = false,
             RedirectStandardOutput = true,
             CreateNoWindow = true,
