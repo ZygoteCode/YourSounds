@@ -72,6 +72,41 @@ public partial class MainForm : MetroSuite.MetroForm
         guna2ComboBox2.SelectedIndex = 0;
         guna2ComboBox3.SelectedIndex = 0;
         guna2ComboBox4.SelectedIndex = 0;
+
+        foreach (Control control in Controls)
+        {
+            control.AllowDrop = true;
+
+            control.DragEnter += (s, e) =>
+            {
+                if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                {
+                    e.Effect = DragDropEffects.Copy;
+                }
+            };
+
+            control.DragDrop += (s, e) =>
+            {
+                if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                {
+                    string[] files = ((string[])e.Data.GetData(DataFormats.FileDrop));
+
+                    foreach (string file in files)
+                    {
+                        string filePath = Path.GetFullPath(file);
+
+                        if (!IsMediaFileValid(filePath))
+                        {
+                            continue;
+                        }
+
+                        CreateAudioFile(filePath);
+                    }
+
+                    UpdateSounds();
+                }
+            };
+        }
     }
 
     private void ClearEffects()
